@@ -48,5 +48,5 @@ int main()
     vector<int> result = findMissing(grid);
     cout<<"Repeated element : "<<result[0]<<"\n";
     cout<<"Missing element : "<<result[1]<<"\n";
-
+    
 }
