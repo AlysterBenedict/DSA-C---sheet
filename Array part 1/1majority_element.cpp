@@ -46,7 +46,7 @@ int main()
     for(int i=0;i<n;i++)
     {
         cin>>num;
-    nums.push_back(num);
+    nums.push_back(num); //dynamic array number insertion
     }
     cout<<"Majority element is "<<s.majorityElement(nums);
 }
