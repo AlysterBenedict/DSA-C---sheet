@@ -9,7 +9,7 @@ public:
             return 0;
         }
 
-        
+    
         int max_profit = 0;
         int min_price= INT_MAX;
 
@@ -27,7 +27,7 @@ int main()
 {
     int days;
     cout<<"Enter the number of days : ";
-    cin>>days;
+    cin>>days; 
     vector<int> prices(days);
     cout<<"Enter the stock prices for "<<days<<" days : ";
     for(int i=0; i<days; i++)
