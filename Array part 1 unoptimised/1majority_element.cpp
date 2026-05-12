@@ -28,5 +28,6 @@ int main() {
     Solution sol;
     vector<int> nums = {2, 2, 1, 1, 1, 2, 2};
     cout << "Majority Element: " << sol.majorityElement(nums) << endl; 
+
     return 0;
 }
